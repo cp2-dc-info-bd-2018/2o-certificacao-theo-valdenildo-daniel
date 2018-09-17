@@ -43,8 +43,8 @@ primary key (id))
 CREATE TABLE usuario(
 id int NOT NULL,
 nome varchar(50),
-cpf varchar(15),
-telefone varchar(11),
+cpf varchar(30),
+telefone varchar(30),
 primary key (id))
 
 CREATE TABLE servico(
