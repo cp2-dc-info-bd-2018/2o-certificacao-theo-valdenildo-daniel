@@ -1,6 +1,6 @@
-CREATE DATABASE GithUber
+CREATE DATABASE GithUber;
 
-use GithUber
+use GithUber;
 
 CREATE TABLE local(
 id int NOT NULL,
