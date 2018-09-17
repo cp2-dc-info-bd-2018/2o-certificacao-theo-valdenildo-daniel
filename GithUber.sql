@@ -17,8 +17,8 @@ primary key (id))
 CREATE TABLE motorista(
 id int NOT NULL,
 nome varchar(50),
-cpf varchar(15),
-telef varchar(11),
+cpf varchar(30),
+telef varchar(30),
 habilit varchar(30),
 id_rank int,
 primary key (id),
