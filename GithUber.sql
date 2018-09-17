@@ -79,7 +79,6 @@ id int,
 nota float,
 coment text,
 data date,
-id_usuario int,
 primary key (id))
 
 
