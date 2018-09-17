@@ -45,9 +45,7 @@ id int NOT NULL,
 nome varchar(50),
 cpf varchar(30),
 telefone varchar(30),
-id_classificacao int,
-primary key (id),
-foreign key (id_classificacao) references classificacao(id))
+primary key (id))
 
 CREATE TABLE servico(
 id int NOT NULL,
@@ -79,6 +77,8 @@ id int,
 nota float,
 coment text,
 data date,
-primary key (id))
+id_usuario int, 
+primary key (id),
+foreign key (id) references usuario(id))
 
 
